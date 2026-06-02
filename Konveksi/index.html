@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Konveksi & Tekstil</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-4 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
+                    </div>
+                    <small>Jl Mawar No 12</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small>Senin - Jumat : 09:00 - 21:00</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary">Prima Tekstil</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="" class="nav-item nav-link active">Beranda</a>
+                <a href="#Tentang" class="nav-item nav-link">Tentang Kami</a>
+                <a href="#Layanan" class="nav-item nav-link">Layanan</a>
+                <a href="#Portofolio" class="nav-item nav-link">Portofolio</a>
+                <a href="#Tim" class="nav-item nav-link">Tim</a>
+                <a href="#Testimoni" class="nav-item nav-link">Testimoni</a>
+            </div>
+
+            <a href="brosur.pdf"
+            class="btn btn-primary rounded-pill px-4 ms-lg-3 d-none d-lg-inline-flex"
+            download>
+                Unduh Brosur
+            </a>
+
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-x-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+<div class="container-fluid p-0 pb-5">
+    <div class="owl-carousel header-carousel position-relative">
+
+        <!-- Slide 1 -->
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="img/Hero-1.jpg" alt="">
+            <div class="carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8 text-center">
+                            <h1 class="display-3 text-white animated slideInDown mb-4">
+                                Solusi Konveksi Berkualitas untuk Berbagai Kebutuhan
+                            </h1>
+                            <p class="fs-5 text-white mb-4 pb-2">
+                                Kami melayani pembuatan seragam, kaos, jaket, dan berbagai produk tekstil dengan bahan berkualitas serta pengerjaan yang profesional.
+                            </p>
+                            <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
+                                Selengkapnya
+                            </a>
+                            <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                Hubungi Kami
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="img/Hero-2.jpg" alt="">
+            <div class="carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8 text-center">
+                            <h1 class="display-3 text-white animated slideInDown mb-4">
+                                Produksi Tekstil Modern dengan Standar Terbaik
+                            </h1>
+                            <p class="fs-5 text-white mb-4 pb-2">
+                                Didukung tenaga berpengalaman dan peralatan modern untuk menghasilkan produk tekstil yang rapi, nyaman, dan tahan lama.
+                            </p>
+                            <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
+                                Selengkapnya
+                            </a>
+                            <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                Hubungi Kami
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="img/Hero-3.jpeg" alt="">
+            <div class="carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8 text-center">
+                            <h1 class="display-3 text-white animated slideInDown mb-4">
+                                Mitra Terpercaya untuk Kebutuhan Konveksi Anda
+                            </h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                                Melayani pesanan skala kecil hingga besar dengan harga kompetitif, kualitas terjamin, dan pengiriman tepat waktu.
+                            </p>
+                            <a href="" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">
+                                Selengkapnya
+                            </a>
+                            <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">
+                                Hubungi Kami
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Carousel End -->
+
+
+    <!-- Layanan Khusus Start -->
+
+<div class="container-xxl py-5">
+    <div class="container">
+    <!-- Section Title -->
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+        <h1 class="display-5 mb-5">Layanan Khusus</h1>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Item 1 -->
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+            <div class="h-100 p-4 p-xl-5" style="background:#1E293B;">
+
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <img src="img/Konsultasi.jpeg"
+                         alt="Konsultasi Desain Gratis"
+                         class="img-fluid rounded"
+                         style="width: 120px; height: 120px; object-fit: cover;">
+
+                    <h1 class="display-1 mb-0 text-primary">01</h1>
+                </div>
+
+                <h5 class="text-white">Konsultasi Desain Gratis</h5>
+                <hr class="w-25">
+
+                <span>
+                    Dapatkan konsultasi desain tanpa biaya tambahan untuk menentukan model, warna, bahan, dan detail produk yang sesuai dengan kebutuhan Anda.
+                </span>
+
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+            <div class="h-100 p-4 p-xl-5" style="background:#1E293B;">
+
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <img src="img/Konveksi.jpeg"
+                         alt="Minimum Order Fleksibel"
+                         class="img-fluid rounded"
+                         style="width: 120px; height: 120px; object-fit: cover;">
+
+                    <h1 class="display-1 mb-0 text-primary">02</h1>
+                </div>
+
+                <h5 class="text-white">Minimum Order Fleksibel</h5>
+                <hr class="w-25">
+
+                <span>
+                    Melayani pemesanan dalam jumlah kecil maupun besar, sehingga cocok untuk kebutuhan pribadi, komunitas, UMKM, hingga perusahaan.
+                </span>
+
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+            <div class="h-100 p-4 p-xl-5" style="background:#1E293B;">
+
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <img src="img/Packing.jpg"
+                         alt="Tepat Waktu dan Berkualitas"
+                         class="img-fluid rounded"
+                         style="width: 120px; height: 120px; object-fit: cover;">
+
+                    <h1 class="display-1 mb-0 text-primary">03</h1>
+                </div>
+
+                <h5 class="text-white">Tepat Waktu & Berkualitas</h5>
+                <hr class="w-25">
+
+                <span>
+                    Setiap pesanan dikerjakan dengan standar kualitas yang baik dan diselesaikan sesuai jadwal yang telah disepakati.
+                </span>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- Layanan Khusus End -->
+
+
+
+    <!-- Tentang Kami Start -->
+<div id="Tentang" class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container about px-lg-0">
+        <div class="row g-0 mx-lg-0">
+
+            <!-- Gambar -->
+            <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute img-fluid w-100 h-100"
+                        src="img/about.jpeg"
+                        style="object-fit: cover;"
+                        alt="Tentang Kami">
+                </div>
+            </div>
+
+            <!-- Konten -->
+            <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="p-lg-5 pe-lg-0">
+
+                    <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+
+                    <!-- Badge Pengalaman -->
+                    <span class="badge bg-primary px-3 py-2 mb-3">
+                        12+ Tahun Beroperasi
+                    </span>
+
+                    <h1 class="display-5 mb-4">Tentang Kami</h1>
+
+                    <p class="mb-4 pb-2">
+                        Kami adalah usaha konveksi dan tekstil yang berkomitmen menghadirkan produk berkualitas untuk berbagai kebutuhan pelanggan. Dengan pengalaman bertahun-tahun, kami melayani pembuatan seragam, kaos, jaket, dan berbagai produk tekstil lainnya dengan mengutamakan kualitas bahan, kerapian jahitan, serta ketepatan waktu pengerjaan.
+                    </p>
+
+                    <!-- Info Pendukung -->
+                    <div class="row g-4 mb-4 pb-3">
+
+                        <!-- Info 1 -->
+                        <div class="col-sm-6">
+                            <div class="border-start border-4 border-primary ps-3 h-100">
+                                <h5 class="mb-2">Bahan Berkualitas</h5>
+                                <p class="mb-0">
+                                    Menggunakan bahan pilihan yang nyaman digunakan, tahan lama, dan sesuai kebutuhan pelanggan.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Info 2 -->
+                        <div class="col-sm-6">
+                            <div class="border-start border-4 border-primary ps-3 h-100">
+                                <h5 class="mb-2">Pengerjaan Profesional</h5>
+                                <p class="mb-0">
+                                    Didukung tenaga berpengalaman untuk menghasilkan produk yang rapi, presisi, dan berkualitas.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#Contact" class="btn btn-primary rounded-pill py-3 px-5">
+                        Hubungi Kami
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Tentang Kami End -->
+
+
+    <!-- Layanan Kami Start -->
+    <div id="Layanan" class="container-xxl py-5">
+        <div class="container">
+
+            <!-- Section Title -->
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Layanan Kami</h1>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Layanan 1 -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item border h-100 p-4">
+
+                        <img src="img/Konveksi-Seragam.jpg"
+                            class="img-fluid rounded mb-4"
+                            alt="Pembuatan Seragam">
+
+                        <h4 class="mb-3">Pembuatan Seragam</h4>
+
+                        <p class="mb-4">
+                            Melayani pembuatan seragam kantor, sekolah, komunitas, dan instansi dengan bahan berkualitas dan jahitan yang rapi.
+                        </p>
+
+                        <a class="btn" href="#">
+                            <i class="fa fa-arrow-right text-white me-3"></i>
+                            Detail
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Layanan 2 -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="service-item border h-100 p-4">
+
+                        <img src="img/Konveksi-Kaos.jpg"
+                            class="img-fluid rounded mb-4"
+                            alt="Produksi Kaos Custom">
+
+                        <h4 class="mb-3">Produksi Kaos Custom</h4>
+
+                        <p class="mb-4">
+                            Menerima pembuatan kaos custom untuk event, komunitas, perusahaan, maupun kebutuhan promosi.
+                        </p>
+
+                        <a class="btn" href="#">
+                            <i class="fa fa-arrow-right text-white me-3"></i>
+                            Detail
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Layanan 3 -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item border h-100 p-4">
+
+                        <img src="img/Bordir-Komputer.jpeg"
+                            class="img-fluid rounded mb-4"
+                            alt="Bordir Komputer">
+
+                        <h4 class="mb-3">Bordir Komputer</h4>
+
+                        <p class="mb-4">
+                            Layanan bordir komputer dengan hasil detail dan presisi untuk berbagai jenis pakaian.
+                        </p>
+
+                        <a class="btn" href="#">
+                            <i class="fa fa-arrow-right text-white me-3"></i>
+                            Detail
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Layanan 4 -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="service-item border h-100 p-4">
+
+                        <img src="img/Sablon-Custom.jpeg"
+                            class="img-fluid rounded mb-4"
+                            alt="Sablon Custom">
+
+                        <h4 class="mb-3">Sablon Custom</h4>
+
+                        <p class="mb-4">
+                            Menyediakan berbagai teknik sablon berkualitas untuk kebutuhan apparel dan merchandise.
+                        </p>
+
+                        <a class="btn" href="#">
+                            <i class="fa fa-arrow-right text-white me-3"></i>
+                            Detail
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Layanan 5 -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item border h-100 p-4">
+
+                        <img src="img/Konveksi-Jaket.jpg"
+                            class="img-fluid rounded mb-4"
+                            alt="Pembuatan Jaket dan Hoodie">
+
+                        <h4 class="mb-3">Pembuatan Jaket & Hoodie</h4>
+
+                        <p class="mb-4">
+                            Produksi jaket, hoodie, dan outerwear custom dengan pilihan bahan yang beragam.
+                        </p>
+
+                        <a class="btn" href="#">
+                            <i class="fa fa-arrow-right text-white me-3"></i>
+                            Detail
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Layanan 6 -->
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="service-item border h-100 p-4">
+
+                        <img src="img/Konveksi-Totebag.jpg"
+                            class="img-fluid rounded mb-4"
+                            alt="Merchandise Tekstil">
+
+                        <h4 class="mb-3">Merchandise Tekstil</h4>
+
+                        <p class="mb-4">
+                            Produksi tote bag, pouch, apron, dan berbagai merchandise tekstil untuk kebutuhan promosi maupun branding usaha.
+                        </p>
+
+                        <a class="btn" href="#">
+                            <i class="fa fa-arrow-right text-white me-3"></i>
+                            Detail
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Layanan Kami End -->
+
+
+<!-- Portofolio Kami Start -->
+<div id="Portofolio" class="container-xxl py-5">
+    <div class="container">
+
+        <!-- Section Title -->
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h1 class="display-5 mb-5">Portofolio Kami</h1>
+        </div>
+        <!-- Portfolio Items -->
+        <div class="row g-5 portfolio-container mt-4">
+            <!-- Portfolio 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-wow-delay="0.1s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/Porto-1.jpeg" alt="">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Seragam</p>
+                        <h5 class="lh-base mb-0">
+                            Seragam Kerja untuk Perusahaan Manufaktur
+                        </h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Seragam</p>
+                        <h5 class="lh-base mb-3">
+                            Seragam Kerja untuk Perusahaan Manufaktur
+                        </h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1"
+                               href="img/Porto-1.jpeg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/Porto-2.jpg" alt="">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Kaos Custom</p>
+                        <h5 class="lh-base mb-0">
+                            Kaos Event Komunitas Pemuda
+                        </h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Kaos Custom</p>
+                        <h5 class="lh-base mb-3">
+                            Kaos Event Komunitas Pemuda
+                        </h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1"
+                               href="img/Porto-2.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-wow-delay="0.3s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/Porto-3.jpeg" alt="">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Workshirt</p>
+                        <h5 class="lh-base mb-0">
+                            Workshirt dengan Bordir Logo
+                        </h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Workshirt</p>
+                        <h5 class="lh-base mb-3">
+                            Workshirt dengan Bordir Logo
+                        </h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1"
+                               href="img/Porto-3.jpeg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio 4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/Porto-4.png" alt="">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Kaos Custom</p>
+                        <h5 class="lh-base mb-0">
+                            Kaos Promosi
+                        </h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Kaos Custom</p>
+                        <h5 class="lh-base mb-3">
+                            Kaos Promosi untuk UMKM Lokal
+                        </h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1"
+                               href="img/Porto-4.png"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio 5 -->
+            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-wow-delay="0.5s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/Porto-5.jpeg" alt="">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Seragam</p>
+                        <h5 class="lh-base mb-0">
+                            Seragam Lapangan untuk Tim Operasional
+                        </h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Seragam</p>
+                        <h5 class="lh-base mb-3">
+                            Seragam Lapangan untuk Tim Operasional
+                        </h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1"
+                               href="img/Porto-5.jpeg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio 6 -->
+            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="portfolio-inner">
+                    <img class="img-fluid w-100" src="img/Porto-6.jpg" alt="">
+                    <div class="text-center p-4">
+                        <p class="text-primary mb-2">Kaos Custom</p>
+                        <h5 class="lh-base mb-0">
+                            Kaos Gathering Perusahaan
+                        </h5>
+                    </div>
+                    <div class="portfolio-text text-center bg-white p-4">
+                        <p class="text-primary mb-2">Kaos Custom</p>
+                        <h5 class="lh-base mb-3">
+                            Kaos Gathering Perusahaan
+                        </h5>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary rounded-circle mx-1"
+                               href="img/Porto-6.jpg"
+                               data-lightbox="portfolio">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- Portofolio Kami End -->
+
+
+    <!-- Mengapa Memilih Kami Start -->
+<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container feature px-lg-0">
+        <div class="row g-0 mx-lg-0">
+            <!-- Konten -->
+            <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="p-lg-5 ps-lg-0">
+                    <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                    <h1 class="display-5 mb-4">Mengapa Memilih Kami?</h1>
+                    <p class="mb-4 pb-2">
+                        Kami berkomitmen menghadirkan produk konveksi dan tekstil berkualitas dengan pelayanan profesional. Setiap pesanan dikerjakan secara teliti untuk memastikan hasil yang sesuai dengan kebutuhan dan harapan pelanggan.
+                    </p>
+                    <div class="row g-4 mb-4">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href=""
+                        class="btn btn-primary btn-lg-square rounded-circle me-3"
+                        target="_blank">
+                            <i class="fa fa-play"></i>
+                        </a>
+
+                        <div>
+                            <p class="mb-0 text-primary">Tonton Video</p>
+                            <h6 class="mb-0">Profil Perusahaan</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Gambar -->
+            <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute img-fluid w-100 h-100"
+                         src="img/WhyChoose.jpg"
+                         style="object-fit: cover;"
+                         alt="Mengapa Memilih Kami">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Mengapa Memilih Kami End -->
+
+
+    <!-- Team Start -->
+<div id="Tim" class="container-xxl py-5">
+    <div class="container">
+
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h1 class="display-5 mb-5">Tim Kami</h1>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Team 1 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item">
+                    <div class="overflow-hidden position-relative">
+                        <img class="img-fluid" src="img/team-1.jpg" alt="Pemilik Usaha">
+                        <div class="team-social">
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Budi Santoso</h5>
+                        <span class="text-primary">Pemilik Usaha</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team 2 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <div class="overflow-hidden position-relative">
+                        <img class="img-fluid" src="img/team-2.jpg" alt="Kepala Produksi">
+                        <div class="team-social">
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Andi Pratama</h5>
+                        <span class="text-primary">Kepala Produksi</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team 3 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item">
+                    <div class="overflow-hidden position-relative">
+                        <img class="img-fluid" src="img/team-3.jpg" alt="Desainer Produk">
+                        <div class="team-social">
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Andika Prakasa</h5>
+                        <span class="text-primary">Desainer Produk</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team 4 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <div class="overflow-hidden position-relative">
+                        <img class="img-fluid" src="img/team-4.jpg" alt="Quality Control">
+                        <div class="team-social">
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-dark rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Rina Wijaya</h5>
+                        <span class="text-primary">Quality Control</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+<div id="Testimoni" class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h1 class="display-5 mb-5">Testimoni Pelanggan</h1>
+        </div>
+
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+
+            <!-- Testimoni 1 -->
+            <div class="testimonial-item text-center"
+                data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
+
+                <p class="fs-5">
+                    Hasil jahitannya sangat rapi dan sesuai dengan desain yang kami inginkan.
+                    Proses pengerjaan juga tepat waktu sehingga kebutuhan seragam perusahaan kami
+                    dapat terpenuhi dengan baik.
+                </p>
+
+                <h4>Siti Rahmawati</h4>
+                <span class="text-primary">Manajer Operasional</span>
+
+            </div>
+
+            <!-- Testimoni 2 -->
+            <div class="testimonial-item text-center"
+                data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
+
+                <p class="fs-5">
+                    Pelayanan sangat ramah dan profesional. Mulai dari konsultasi desain hingga
+                    proses produksi berjalan lancar. Kualitas bahan yang digunakan juga sangat memuaskan.
+                </p>
+
+                <h4>Budi Santoso</h4>
+                <span class="text-primary">Pemilik UMKM</span>
+
+            </div>
+
+            <!-- Testimoni 3 -->
+            <div class="testimonial-item text-center"
+                data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
+
+                <p class="fs-5">
+                    Kami memesan kaos untuk kegiatan komunitas dan hasilnya melebihi ekspektasi.
+                    Sablon berkualitas, bahan nyaman digunakan, dan harga yang ditawarkan cukup kompetitif.
+                </p>
+
+                <h4>Andi Pratama</h4>
+                <span class="text-primary">Ketua Komunitas</span>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+<div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+
+        <div class="row g-5 justify-content-between">
+
+            <!-- Kontak -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-light mb-4">Kontak Kami</h5>
+
+                <p class="mb-2">
+                    <i class="fa fa-map-marker-alt me-3"></i>
+                    Jl. Mawar No. 12, Surabaya, Jawa Timur
+                </p>
+
+                <p class="mb-2">
+                    <i class="fa fa-phone-alt me-3"></i>
+                    +62 812 3456 7890
+                </p>
+
+                <p class="mb-2">
+                    <i class="fa fa-envelope me-3"></i>
+                    info@konveksimaju.com
+                </p>
+
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="#">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Layanan -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-light mb-4">Layanan Kami</h5>
+
+                <a class="btn btn-link">Pembuatan Seragam</a>
+                <a class="btn btn-link">Produksi Kaos Custom</a>
+                <a class="btn btn-link">Bordir Komputer</a>
+                <a class="btn btn-link">Sablon Custom</a>
+                <a class="btn btn-link">Pembuatan Jaket & Hoodie</a>
+            </div>
+
+            <!-- Navigasi -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-light mb-4">Navigasi</h5>
+
+                <a class="btn btn-link" href="">Beranda</a>
+                <a class="btn btn-link" href="#Tentang">Tentang Kami</a>
+                <a class="btn btn-link" href="#Layanan">Layanan Kami</a>
+                <a class="btn btn-link" href="#Portofolio">Portofolio</a>
+                <a class="btn btn-link" href="#Tim">Tim</a>
+                <a class="btn btn-link" href="#Testimoni">Testimoni</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+<div class="container-fluid bg-dark footer-copyright py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">
+                    &copy; 2026 Prima Tekstil. Seluruh Hak Cipta Dilindungi.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
